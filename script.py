@@ -5,8 +5,8 @@ excel= pd.read_excel("gmail.xlsx")
 gmails = excel['gmails'].values
 print(gmails)
 
-username="rtech654321@gmail.com"
-password="ytstamil001"
+username=""
+password=""
 
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
